@@ -23,5 +23,7 @@ public class OauthServiceApplication implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("========启动成功=========");
         System.out.println("http://localhost:" + port);
+        System.out.println("登录页面：http://localhost:8888/oauth/login");
+
     }
 }
